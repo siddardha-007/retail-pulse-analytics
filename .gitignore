@@ -3,6 +3,7 @@
 venv/
 env/
 ENV/
+.env
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -15,6 +16,10 @@ ENV/
 *.zip
 *.csv
 online_retail_II.xlsx
+
+# Generated outputs
+outputs/figures/*
+outputs/reports/*
 
 # Python cache files
 __pycache__/
